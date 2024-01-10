@@ -1,0 +1,193 @@
+repo_name: aldoyh/docs
+report_id: a87e526ada6dd70700b726e2164cdb0e
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-10T18:20:50+00:00'
+requested_by: joshdholtz
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/aldoyh/docs
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/aldoyh/docs
+  detection_source: Repo Metadata
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Josh Holtz
+  last_updated_on: 2019-03-20 01:06:16.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  version: 1.10.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/Gemfile.lock
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/Pipfile
+  detection_source: Pipfile
+  last_updated_by: Iulian Onofrei
+  last_updated_on: 2018-04-09 12:26:26.000000000 Z
+- name: RuboCop
+  description: A Ruby static code analyzer, based on the community Ruby style guide
+  website_url: http://batsov.com/rubocop/
+  version: 0.49.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: KrauseFx
+  last_updated_on: 2016-08-25 18:57:27.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: KrauseFx
+  last_updated_on: 2016-08-25 18:57:27.000000000 Z
+- name: fastlane
+  description: Connect all iOS deployment tools into one streamlined workflow
+  website_url: https://fastlane.tools/
+  version: 2.205.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Mobile Continuous Integration
+  image_url: https://img.stackshare.io/service/2383/11098337.png
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Jan Piotrowski
+  last_updated_on: 2018-08-21 17:05:19.000000000 Z
+- name: MkDocs
+  description: 'A static site generator '
+  website_url: http://www.mkdocs.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/3415/h4nqPazl_400x400.png
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/Pipfile
+  detection_source: Pipfile
+  last_updated_by: Iulian Onofrei
+  last_updated_on: 2018-04-09 12:26:26.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/aldoyh/docs
+  detection_source: Repo Metadata
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 4.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Josh Holtz
+  last_updated_on: 2021-07-02 18:35:03.000000000 Z
+- name: pymdown-extensions
+  description: Extension pack for Python Markdown
+  package_url: https://pypi.org/project/pymdown-extensions
+  version: 8.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20736/default_d7016f3b81d6dea370b4e255c96d7e3aa7e34373.png
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Josh Holtz
+  last_updated_on: 2021-07-02 18:38:16.000000000 Z
+  vulnerabilities:
+  - name: Any file can be included with the pymdown-snippets extension
+    cve_id: CVE-2023-32309
+    cve_url: https://github.com/advisories/GHSA-jh85-wwv9-24hv
+    detected_date: May 16
+    severity: high
+    first_patched: '10.0'
+- name: typing-extensions
+  description: Backported and Experimental Type Hints for Python 3.5+
+  package_url: https://pypi.org/project/typing-extensions
+  version: 3.10.0
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/Pipfile.lock
+  detection_source: Pipfile
+  last_updated_by: Josh Holtz
+  last_updated_on: 2021-07-02 18:38:16.000000000 Z
+- name: danger
+  description: Stop Saying 'You Forgot To…' in Code Review
+  package_url: https://rubygems.org/danger
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19531/default_613f4a81e068e079bd9a85743fffda50ec58cc62.png
+  detection_source_url: https://github.com/aldoyh/docs/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: KrauseFx
+  last_updated_on: 2016-08-25 18:57:27.000000000 Z
